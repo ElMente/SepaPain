@@ -5,7 +5,7 @@ steps:
   - name: test
     when:
       - event: [ push, manual ]
-    image: maven:3.9-eclipse-temurin-21
+    image: maven:3.9-eclipse-temurin-25
     environment:
       REPO_HOST:
         from_secret: repo_host
@@ -45,7 +45,7 @@ steps:
   - name: deploy
     when:
       - event: [ push, manual ]
-    image: maven:3.9-eclipse-temurin-21
+    image: maven:3.9-eclipse-temurin-25
     environment:
       REPO_HOST:
         from_secret: repo_host
