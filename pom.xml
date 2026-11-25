@@ -6,7 +6,7 @@
     <artifactId>sepa-pain</artifactId>
     <packaging>jar</packaging>
     <name>SepaPain</name>
-    <version>3.0.0-SNAPSHOT</version>
+    <version>4.0.0-SNAPSHOT</version>
     <organization>
         <name>ROAMSYS S.A.</name>
         <url>https://roamsys-next.com</url>
